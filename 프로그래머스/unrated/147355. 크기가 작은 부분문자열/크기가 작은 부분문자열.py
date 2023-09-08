@@ -7,11 +7,3 @@ def solution(t, p):
         if t[i:i+num] <= p:
             answer += 1
     return answer
-
-
-#     for j in t_list:
-#         t = ''.join(j)
-        
-#         if t <= p:
-#             answer += 1
-#     return answer
